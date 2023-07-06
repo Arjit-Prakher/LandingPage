@@ -1,9 +1,9 @@
 
-gsap.from("#page1 h1, h2, p", {
+gsap.from("#page1 h1, h2, #last", {
     y: 50,
     opacity: 0,
     duration: 1,
-    stagger: 0.4
+    stagger: 0.5
 })
 
 gsap.to("#nav", {

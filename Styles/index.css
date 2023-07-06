@@ -24,6 +24,12 @@ html, body {
     z-index: 99;
 }
 
+#nav h4:hover {
+    color: red;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 #nav img {
     height: 75px;
 }
@@ -114,12 +120,24 @@ html, body {
     font-size: 20px;
     margin: 0 120px;
 }
+.key {
+    display: flex;
+}
+.value {
+    width: 100%;
+    text-align: end;
 
-#card-container {
-    /* background-color: red; */
+}
+.quote {
     height: 50vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 70px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.quote h3 {
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
